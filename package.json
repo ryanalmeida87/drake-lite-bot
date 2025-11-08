@@ -1,0 +1,22 @@
+{
+  "name": "drake-lite-bot",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp inspirado no Drake Bot v10 — simples, rápido e funcional no Termux",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "keywords": ["whatsapp", "bot", "drake", "termux"],
+  "author": "Você",
+  "license": "MIT",
+  "dependencies": {
+    "whatsapp-web.js": "^1.34.2",
+    "qrcode-terminal": "^0.12.0",
+    "fs-extra": "^11.2.0",
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.15",
+    "lowdb": "^7.0.1",
+    "nanoid": "^5.0.7"
+  }
+}
